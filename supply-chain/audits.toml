@@ -1,4 +1,8 @@
 
 # cargo-vet audits file
 
-[audits]
+[[audits.sheet-core]]
+who = "Wyatt Au <wyatt_au@protonmail.com>"
+criteria = "safe-to-deploy"
+version = "0.1.0"
+notes = "First-party crate. Reviewed in-repo; no unsafe code (forbidden at compile time), zero dependencies, deny-linted totality on hostile formulas."
