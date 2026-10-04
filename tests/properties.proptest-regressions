@@ -1,0 +1,9 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc bf66d066cc31cdeb75dfa778a2649cd591b5af4c7777ab4368145fabe0998a79 # shrinks to dag = RandomDag { cells: [(0, 0), (1, 2)], edges: [(0, 1)] }, seeds = [0]
+cc 3a384befcf3f1088a56aa0c397443b7cfd6500e053f160379acb31912f9ec06a # shrinks to dag = RandomDag { cells: [(0, 0), (1, 2)], edges: [(0, 1)] }
+cc 30d36ffe2f95e4dc5aec1e5d19ee9316e73844fec1ee56631de99f0e2a27cf2b # shrinks to dag = RandomDag { cells: [(0, 0), (1, 2), (2, 4), (3, 6)], edges: [(0, 3)] }, a = 21, b = 62
