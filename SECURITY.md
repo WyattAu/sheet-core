@@ -1,4 +1,4 @@
-# Security Policy — sheet-core
+# Security Policy: sheet-core
 
 ## Supported versions
 
@@ -26,7 +26,7 @@ integrators:
   processes. Untrusted data can only enter through `&str`/`&[u8]`-shaped
   API parameters (`extract_refs`, `add_formula`, …).
 - **Totality on hostile input.** Reference extraction is designed to
-  reject or skip arbitrary bytes with a typed error — fuzzing asserts
+  reject or skip arbitrary bytes with a typed error: fuzzing asserts
   `Err`-or-`Ok`, never a panic. Formula text is never evaluated: the
   crate parses *references*, not expressions, so formula-injection is
   out of scope by construction.
@@ -34,7 +34,7 @@ integrators:
   `RANGE_CELL_CAP` (65,536) expanded cells; larger rectangles are
   rejected rather than materialized. Graph algorithms are iterative
   (no recursion-depth blowup on 500-cell adversarial chains).
-- `#![forbid(unsafe_code)]` — no unsafe blocks exist in this crate.
+- `#![forbid(unsafe_code)]`: no unsafe blocks exist in this crate.
 
 [GitHub security advisories]:
     https://github.com/WyattAu/sheet-core/security/advisories/new
