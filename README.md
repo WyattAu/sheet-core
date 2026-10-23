@@ -1,4 +1,5 @@
 # sheet-core
+[![Estate integration](https://github.com/WyattAu/estate-integration/actions/workflows/ci.yml/badge.svg)](https://github.com/WyattAu/estate-integration/actions/workflows/ci.yml)
 
 Spreadsheet data model: sparse cell storage, dependency DAG, topological
 evaluation order, formula reference extraction.
