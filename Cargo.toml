@@ -1,6 +1,6 @@
 [package]
 name = "sheet-core"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.85"
 authors = ["Wyatt Au <wyatt_au@protonmail.com>"]
@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/WyattAu/sheet-core"
 homepage = "https://github.com/WyattAu/sheet-core"
 documentation = "https://docs.rs/sheet-core"
-description = "Spreadsheet data model — sparse cell storage, dependency DAG, topological evaluation order, formula reference extraction"
+description = "Spreadsheet data model: sparse cells, dependency DAG, topological order, formula reference extraction"
 readme = "README.md"
 keywords = ["spreadsheet", "xlsx", "cells", "formula", "no-std"]
 categories = ["data-structures", "parser-implementations"]
